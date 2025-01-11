@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(231, 228, 223, 0.539);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.gameContainer{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#gameButton{
+    margin: 5px;
+    padding: 5px;
+    font-size: 3.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+#gameButton:hover{
+    scale: 1.2;
+}
+#gameButton:active{
+    scale: 1.0;
+}
+.reasult{
+    display: flex;
+    flex-direction: column;
+}
+.reasultH1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
