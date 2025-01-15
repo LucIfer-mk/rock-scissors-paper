@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 body{
+    font-family: 'Poppins', sans-serif;
     background-color: rgba(231, 228, 223, 0.539);
     margin: 0px;
     display: flex;
@@ -32,10 +35,23 @@ body{
 .reasult{
     display: flex;
     flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
 }
-.reasultH1{
+#yourReasult{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+}
+#computerScore{
     font-size: 2rem;
+    margin: 1px;
 }
-p{
-    font-size: 1rem;
+#yourScore{
+    font-size: 2rem;
+    margin: 1px;
+}
+#totalplay{
+    font-size: 2rem;
+    margin: 1px;
 }
